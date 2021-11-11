@@ -1,0 +1,64 @@
+.hero {
+   position: relative;
+
+   &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 228px 0px 120px 0;
+
+   }
+
+   &__img {
+      z-index: -1;
+      background-image: url('../img/dmb_aerial_01.jpg');
+      background-repeat: no-repeat;
+      left: 0;
+      top: 0;
+      mask-image: linear-gradient(rgba(255, 255, 255, .6) 0%, transparent 100%);
+      background-attachment: fixed;
+      background-size: cover;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+   }
+
+   &__title {
+      font-size: 70px;
+      font-weight: 500;
+      color: #e4dad1;
+      margin-bottom: 30px;
+
+   }
+
+   &__subtitle {
+      color: #bab1a8;
+      max-width: 660px;
+      line-height: 130%;
+      padding: 0;
+      margin-bottom: 50px;
+      text-align: center;
+   }
+
+   &__footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__data {
+      background-color: rgba(0, 0, 0, 0.237);
+      padding: 10px 10px;
+      margin-right: 15px;
+      color: $color-accent;
+   }
+
+   &__link {
+      background-color: #cd412b;
+      color: $color-accent;
+      padding: 10px 10px;
+
+   }
+
+}

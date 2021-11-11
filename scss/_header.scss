@@ -1,0 +1,57 @@
+.header {
+   z-index: 100;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+
+   &__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+   }
+
+   &__logo {
+      width: 100px;
+      height: 100px;
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+         transform: scale(1.1);
+      }
+   }
+}
+
+.header-list {
+   display: flex;
+   list-style: none;
+
+   &__item {
+      margin: 0 20px 0 0;
+
+      a {
+         color: $color-accent;
+         font-weight: 500;
+         font-family: "Bebas Neue", sans-serif;
+         padding: 8px;
+
+         &:hover {
+            transition: color .2s;
+            color: white;
+         }
+      }
+
+      &:last-child {
+         margin: 0;
+
+         a {
+            background-color: #cd412b;
+
+            &:hover {
+               box-shadow: 0 3px 3px #0000004f;
+            }
+         }
+      }
+   }
+}

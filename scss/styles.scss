@@ -1,0 +1,27 @@
+@import 'mysor';
+
+body {
+   background-color: #151413;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+$color-accent: #e4dad1;
+
+a {
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+@import 'header';
+@import 'hero';
+@import 'video';
+@import 'news';
+@import 'footer';
+@import 'map';

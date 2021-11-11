@@ -1,0 +1,38 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+
+   &__copyright-span {
+      display: flex;
+      font-family: "Bebas Neue", sans-serif;
+      color: rgba(186, 177, 168, .6);
+      font-size: 1.1rem;
+      letter-spacing: .1rem;
+   }
+
+   &__icons {
+      display: flex;
+   }
+
+   .social-icon {
+      color: white;
+      background-color: white;
+      width: 40px;
+      height: 40px;
+   }
+}
+
+.social-icon-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 0.5rem;
+   width: 40px;
+   height: 40px;
+}
+
+.fa-color {
+   color: white;
+}

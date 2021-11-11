@@ -1,0 +1,41 @@
+.news {
+   margin-bottom: 30px;
+
+   &__content {
+      max-width: 800px;
+   }
+
+   &__title {
+      color: #cd412b;
+      text-transform: uppercase;
+      font-size: 36px;
+      background-color: #151413;
+      position: relative;
+      top: -35px;
+      left: -28px;
+      display: inline-block;
+
+      a {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 20px;
+         color: #cd412b;
+      }
+   }
+
+   &__subtitle {
+      color: #bab1a8;
+      line-height: 130%;
+      margin-bottom: 15px;
+   }
+
+   &__image {}
+
+   &__article {
+      &:not(:last-child) {
+         margin-bottom: 100px;
+      }
+   }
+
+}
